@@ -171,7 +171,12 @@ textarea {
 }
 
 /* Botón */
-button[type="submit"] {
+
+.boton-enviar {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
   background-color: #c10000;
   color: white;
   padding: 12px 25px;
@@ -182,10 +187,6 @@ button[type="submit"] {
   transition: background-color 0.3s ease;
   display: block;
   margin: 0 auto;
-}
-
-button[type="submit"]:hover {
-  background-color: #e60000;
 }
 
 /* ---------- footer ---------- */
