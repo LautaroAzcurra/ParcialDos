@@ -13,69 +13,88 @@
 </head>
 
 <body>
-  <nav>
-    <input type="checkbox" id="menu-toggle" class="menu-toggle">
-    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+  <header>
+    <nav>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
 
-    <div class="logo">
-      <a href="https://www.rollingstones.com" target="_blank">
-        <img src="stoneslengua.png" width="100" alt="Logo Rolling Stones">
-      </a>
-    </div>
+      <div class="logo">
+        <a href="https://www.rollingstones.com" target="_blank">
+          <img src="stoneslengua.png" width="100" alt="Logo Rolling Stones">
+        </a>
+      </div>
 
-    <div class="nav-links">
+      <div class="nav-links">
         <a href="index.html#Inicio">Inicio</a>
-       <a href="index.html#Stones">Stones</a>
-       <a href="index.html#Sobreeldisco">Sobre el disco</a>
-       <a href="index.html#EdicionLimitada">Edición limitada</a>
+        <a href="index.html#Stones">Stones</a>
+        <a href="index.html#Sobreeldisco">Sobre el disco</a>
+        <a href="index.html#EdicionLimitada">Edición limitada</a>
         <a href="index.html#Preventa">Preventa</a>
-    </div>
+      </div>
 
-  </nav>
+    </nav>
+  </header>
 
-  <div class="contenido-principal">
-    <div class="titulo-parrafo">
-      <h1 id="Inicio">Completa el siguiente formulario</h1>
-      <p>¡Estás a un paso de llevarte una joya del rock!
-          Completá el formulario y asegurá tu copia de Sticky Fingers, el álbum que marcó una era. 
-          Esta edición especial es para verdaderos fans, con diseño exclusivo y toda la fuerza de los Stones.
-          ¡No te lo pierdas! Sumate a esta experiencia legendaria y dejá que el rock siga sonando fuerte.</p>
+  <main>
+
+    <section class="contenido-principal">
+        <div class="titulo-parrafo">
+            <h1 id="Inicio">Completa el siguiente formulario</h1>
+            <p>¡Estás a un paso de llevarte una joya del rock!
+              Completá el formulario y asegurá tu copia de Sticky Fingers, el álbum que marcó una era. 
+              Esta edición especial es para verdaderos fans, con diseño exclusivo y toda la fuerza de los Stones.
+              ¡No te lo pierdas! Sumate a esta experiencia legendaria y dejá que el rock siga sonando fuerte.</p>
+            
+              <p>"... And you can send me dead flowers every morning
+                  Send me dead flowers by the mail
+                  Send me dead flowers to my wedding
+                  And I won't forget to put roses on your grave..."</p>
+        </div>
+    </section>
+
+      <section id="formulario">
+        <h2>Formulario</h2>
+        <form action="confirmacion.html" method="GET">
+          <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+          <div>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+          </div>
+          <div>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="boton-enviar">Enviar</button>
           
-          <p>"... And you can send me dead flowers every morning
-            Send me dead flowers by the mail
-            Send me dead flowers to my wedding
-            And I won't forget to put roses on your grave..."</p>
+        </form>
+      </section>
+
+  </main>
+
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-contact">
+      <p><strong>Contacto:</strong> <a href="mailto:contacto@rollingstones.com">contacto@rollingstones.com</a></p>
+    </div>
+    <div class="footer-social">
+      <p>
+        <strong>Seguinos en:</strong>
+        <a href="https://www.instagram.com/therollingstones" target="_blank" aria-label="Instagram">
+          <img src="ig.png" alt="Instagram" class="social-icon">
+        </a>
+      </p>
+    </div>
+    <div class="footer-copy">
+      <p>&copy; 2025 <em>Sticky Fingers</em> | Sitio tributo a los Rolling Stones</p>
     </div>
   </div>
-
-<section id="formulario">
-  <h2>Formulario</h2>
-  <form action="confirmacion.html" method="GET">
-    <div>
-      <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" name="nombre" required>
-    </div>
-    <div>
-      <label for="apellido">Apellido:</label>
-      <input type="text" id="apellido" name="apellido" required>
-    </div>
-    <div>
-      <label for="email">Correo electrónico:</label>
-      <input type="email" id="email" name="email" required>
-    </div>
-    <div>
-      <label for="mensaje">Mensaje:</label>
-      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-    </div>
-    <a href="Confirmacion.html" class="boton-enviar">Enviar</a>
-    
-  </form>
-</section>
-
-<footer>
-  <p>Contacto: <a href="mail:contacto@rollingstones.com">contacto@rollingstones.com</a></p>
-  <p>Síguenos en <a href="https://www.instagram.com/therollingstones" target="_blank">Instagram</a></p>
-  <p>&copy; 2025 Sticky Fingers | Sitio tributo a los Rolling Stones</p>
 </footer>
 
 

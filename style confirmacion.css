@@ -140,6 +140,24 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer-contact,
+.footer-social,
+.footer-copy {
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
 /* PUNTO DE QUIEBRE PARA VISTA MÓVIL */
 @media (max-width: 768px) {
   nav {
