@@ -44,3 +44,27 @@ body {
     a.volver:hover {
       background-color: #e6b76f;
     }
+
+    @media (max-width: 768px) {
+  body {
+    padding: 60px 15px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .logo-error {
+    width: 140px;
+    margin-bottom: 30px;
+  }
+
+  a.volver {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
